@@ -6,11 +6,11 @@ Escribe una función recursiva que imprima los números pares del 1 al 100
 """
 
 
-def imprimir_pares(n):                # se define una función llamada imprimir_pares con el parámetro n
-    if n <= 100:                      # esta condicional verifica si n es menor o igual a 100. Si es verdadero la función continúa ejecutándose
-        if n % 2 == 0:                # esta condicional verifica si n es par (es decir si el residuo de dividir n entre 2 es igual a cero)
-            print(n)                  # si n es par, imprime n
-        imprimir_pares(n + 1)         #si n es impar, se llama recursivamente a la funcion con n incrementado en 1
+def imprimir_pares(n):                  # se define una función llamada imprimir_pares con el parámetro n
+    if n <= 100:                        # esta condicional verifica si n es menor o igual a 100. Si es verdadero la función continúa ejecutándose
+        if n % 2 == 0:                  # esta condicional verifica si n es par (es decir si el residuo de dividir n entre 2 es igual a cero)
+            print(n)                    # si n es par, imprime n
+        imprimir_pares(n + 1)           # si n es impar, se llama recursivamente a la funcion con n incrementado en 1
 
 imprimir_pares(1)
 

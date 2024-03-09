@@ -7,15 +7,13 @@ Crea una matriz de números complejos
 
 
 
-import numpy as np                                             # se importa la biblioteca NumPy bajo el alias np
-
+import numpy as np                                                    # se importa la biblioteca NumPy bajo el alias np
 
 matriz_complejos = np.array([[1 + 2j, 3 - 4j, 5 + 6j],                # se crea una matriz de números reales utilizando la función np.array()
                              [7 - 8j, 9 + 10j, 11 - 12j],
                              [13 + 14j, 15 - 16j, 17 + 18j]])
 
-
-print(matriz_complejos)                                        #  imprime la matriz de números complejos
+print(matriz_complejos)                                               #  imprime la matriz de números complejos
 
 
 
